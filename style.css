@@ -2,7 +2,58 @@
     margin: 0;
     padding: 0;
   }
-  
+  #box1{
+    height :3cm;
+    width:3cm;
+    border-radius: 50%;
+    display: inline-block;
+    position:fixed;
+    left: 0px;
+    top:7px;
+    align-self: flex-start;
+    background-image: url("./images/rupee.jpeg");
+    background-size: cover;
+    animation: r1 5s ease-in 2s infinite normal;
+  }
+  #box2{
+    height :3cm;
+    width:3cm;
+    border-radius: 50%;
+    display: inline-block;
+    position:fixed;
+    top:7px;
+    right:0px;
+    align-self: flex-end;
+    background-image: url("./images/rudo.jpeg");
+    background-size: cover;
+    animation: r2 5s ease-in 2s infinite normal;
+  }
+  #box3{
+    height :3cm;
+    width:3cm;
+    border-radius: 50%;
+    display: inline-block;
+    left:0px;
+    position:fixed;
+    bottom:0px;
+    align-self: flex-start;
+    background-image: url("./images/rs.jpeg");
+    background-size: cover;
+    animation: r3 5s ease-in 2s infinite normal;
+  }
+  #box4{
+    height :3cm;
+    width:3cm;
+    border-radius: 50%;
+    display: inline-block;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    align-self: flex-emd;
+    background-image: url("./images/yen.jpeg");
+    background-size: cover;
+    animation: r4 5s ease-in 2s infinite normal;
+  }
   .stb {
     display: flex;
     justify-content: center;
@@ -86,4 +137,20 @@
   body{
     background-color: orange;
     text-align:center;
+  }
+  @keyframes r1 {
+    from{transform:translate(0cm,0cm);}
+    to{transform: translate(7cm,7cm);}
+  }
+  @keyframes r2 {
+    from{transform:translate(0cm,0cm);}
+    to{transform: translate(-7cm,7cm);}
+  }
+  @keyframes r3 {
+    from{transform:translate(0cm,0cm);}
+    to{transform: translate(7cm,-7cm);}
+  }
+  @keyframes r4 {
+    from{transform:translate(0cm,0cm);}
+    to{transform: translate(-7cm,-7cm);}
   }
