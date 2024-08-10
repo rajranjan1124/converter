@@ -11,7 +11,7 @@
     left: 0px;
     top:7px;
     align-self: flex-start;
-    background-image: url("./images/rupee.jpeg");
+    background-image: url("rupee.jpeg");
     background-size: cover;
     animation: r1 5s ease-in 2s infinite normal;
   }
@@ -24,7 +24,7 @@
     top:7px;
     right:0px;
     align-self: flex-end;
-    background-image: url("./images/rudo.jpeg");
+    background-image: url("rudo.jpeg");
     background-size: cover;
     animation: r2 5s ease-in 2s infinite normal;
   }
@@ -37,7 +37,7 @@
     position:fixed;
     bottom:0px;
     align-self: flex-start;
-    background-image: url("./images/rs.jpeg");
+    background-image: url("rs.jpeg");
     background-size: cover;
     animation: r3 5s ease-in 2s infinite normal;
   }
@@ -50,7 +50,7 @@
     bottom:0px;
     right:0px;
     align-self: flex-emd;
-    background-image: url("./images/yen.jpeg");
+    background-image: url("yen.jpeg");
     background-size: cover;
     animation: r4 5s ease-in 2s infinite normal;
   }
